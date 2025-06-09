@@ -30,3 +30,48 @@ print(my_puppy)
 
 my_puppy = ["acrylics", "cigarettes", "lana del rey", my_puppy]
 
+
+print(type("strawberry lip balm"))
+
+print(type(7))
+
+print(type(["summer", "beach", "Jack and Coke"]))
+
+print(type(1.72))
+
+# "string"
+# 012345
+
+temp_string = "string"
+
+print(temp_string)
+
+print(len(temp_string))
+
+temp_string2 = "I am Olivia"
+
+temp_string2 = print(len("I am Olivia"))
+
+# print(len(temp_string))
+
+# print(temp_string(0))
+
+print(temp_string[0])
+
+print(temp_string[1])
+
+print(temp_string[5])
+
+print(temp_string[-3])
+
+print(temp_string[2:])
+
+print(temp_string[2:5])
+
+print(temp_string[::2])
+
+temp3 = "abcdefghijklmnopqrstuvwxyz"
+
+print(temp3[::4])
+
+print(temp3[:5:2])
