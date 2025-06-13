@@ -80,7 +80,7 @@ alpha = ["b", "z", "h", "i"]
 alpha.sort()
 
 num_list = [0, 9, 1019290, 1, 3]
-num_list.sort
+num_list.sort()
 
 print(num_list)
 print(alpha)
@@ -88,6 +88,26 @@ print(alpha)
 b_val = 'b'
 print(ord(b_val))
 
-alpha.reverse
+alpha.reverse()
 
 print(alpha)
+
+tmp4 = ["1", "2"]
+
+tmp4.pop()
+
+print(tmp4)
+
+tmp4.pop()
+
+print(tmp4)
+
+num_list.reverse()
+
+C_val = "C"
+
+print(ord(C_val))
+
+num_list.sort(reverse=True)
+
+print(num_list)
